@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #111827;
+}
+.nav-class{
+    background-color: #111827;
+}
+.nav-class>div a{
+    font-weight: 500;
+}
+
+.heading{
+    font-family: "Playfair Display" , sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    background: linear-gradient(90deg,#3B82F6,#D946EF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sec-1 p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #bfc0c3;
+    font-size: 20px;
+}
+
+.sec-1 img{
+    width: 315px;
+    height: 315px;
+}
+
+.sec-1 button{
+    padding: 20px 40px;
+    border-radius: 6px;
+    background: linear-gradient(90deg,#3B82F6,#D946EF);
+    color: white;
+    border: none;
+
+    font-weight: 500;
+}
+
+hr{
+    color: white;
+}
+
+.sec-3 a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.border-class{
+    border: 2px solid #D946EF;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.sec-3 h4{
+    color: #D47FA0;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.sec-3 p{
+    color: white;
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+}
+
+footer{
+    background-color: #8F92A8;
+}
